@@ -1,0 +1,57 @@
+.avatar {
+    border-radius: 60px;
+    width: 120px;
+    margin-top: -2%;
+}
+
+/* section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    height: 692px;
+    border-radius: 80px;
+    margin: 0 2% 0 2%;
+    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE);  
+} */
+
+h1 {
+    font-weight: 400;
+    color:#4F6B82;
+    font-family: 'P22Mackinac';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+.personalPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    height: 692px;
+    border-radius: 80px;
+    margin: 0 2% 0 2%;
+    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE); 
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row; 
+}
+
+.social-links a {
+    margin-right: 40px;
+}
+
+.vector {
+    width: 228px;
+    height: 27px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
