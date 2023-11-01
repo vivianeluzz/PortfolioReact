@@ -1,0 +1,53 @@
+.card  {
+    width: 240px;
+    height: 266px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-green {
+    background-color: #F3FBF5;
+  }
+
+  .card-html{
+    background-color: #F8EFE8;
+  }
+  .card-css{
+    background-color:#E7E9FA;
+  }
+ 
+  .card-javas{
+    background-color: #F8F9EB;
+    
+  }
+  .card-react{
+    background-color:#EBF8FB;
+    
+  }
+  .card-aws{
+    background-color: #EDEAF6;
+    
+  }
+  .card-node{
+    background-color:#F1F6E6;
+    
+  }
+  .card-angular{
+    background-color:#F7E2E8;
+    
+  }
+  .card-type{
+    background-color:#EAEEF7;
+    
+  }
+  .card-figma{
+    background-color:#EAEEF7;
+    
+  }
+  .card-figma{
+    background-color:#E6F6FB;
+    
+  }
+

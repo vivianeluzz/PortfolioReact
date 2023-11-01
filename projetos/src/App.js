@@ -3,6 +3,8 @@ import Header  from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import { IconContext } from "react-icons"
 import Bio from './Components/Bio/Bio';
+import Skills from './Components/Skills/Skills';
+
 
  
 function App() {
@@ -12,6 +14,7 @@ function App() {
         <Header />
         <Home />
         <Bio />
+        <Skills/>
       </IconContext.Provider>
     </div>
   );
