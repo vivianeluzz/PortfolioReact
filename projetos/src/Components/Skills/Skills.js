@@ -10,7 +10,7 @@ import Nova from '../../assets/nova.png';
 function Skills() {
   return(
       <section className='vivi'>
-          <h2>Minhas Habilidades</h2>
+          <h2>Formação</h2>
           <li className='container'>
               <Card bgcolor="green" icon={Github} title="Github" />
               <Card bgcolor="html" icon={Html} title="Html" />

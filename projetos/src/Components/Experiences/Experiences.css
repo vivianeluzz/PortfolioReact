@@ -1,0 +1,122 @@
+body {
+    padding: 20px;
+}
+.experiences {
+    display: flex;
+    height: 735px;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 80px 160px;
+    border-radius: 80px;
+    border: 1px solid #D5E0E5;
+    background: linear-gradient(0deg, #FEFCFF 0%, #FEFCFF 100%), linear-gradient(104deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%);
+}
+
+.experiencies-description {
+    width: 100%;
+    height: 130px;
+    /* font-family: 'P22 Mackinac Pro'; */
+    /* font-size: 16px; */
+    font-weight: 500;
+    /* color: #5F496F; */
+    margin-top: 25px;
+}
+
+.list-experiences{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+.itens-experiencies {
+    width: 32%;
+    padding: 0;
+
+}
+
+.professionals {
+    max-width: 520px;
+    height: 80px;
+    margin-bottom: 80px;
+    color: #411A5E;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.experiences h3 {
+    max-width: 333px;
+    color: #411A5E;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+
+ol {
+    display: flex;
+    padding: 0;
+}
+
+/* .language-tags{
+    padding: 4px 8px;
+    background-color: #F4E5FF;
+    max-width: 220px;
+    border-radius: 50px;
+
+} */
+.language-tags li {
+    margin: 0 4px;
+}
+
+.tag-experiencies {
+    background-color: #F4E5FF;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 12px;
+    font-weight: 700;
+    color: #411A5E;
+    border-radius: 50px;
+    padding: 4px 8px;
+}
+
+.experiencies-description {
+    color: #5F496F;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.exp-content {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.line {
+    background-color: #D5E0E5;
+    width: 100%;
+    height: 1px;
+}
+
+.companies {
+    max-width: 333px;
+}
+
+.companies-name {
+    width: 100%;
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 800;
+    font-size: 16px;
+    color: #411A5E;
+}
+
+.years {
+    font-family:'P22 Mackinac Pro';
+    font-weight: 500;
+    font-size: 12px;
+    color: #5F496F;
+}

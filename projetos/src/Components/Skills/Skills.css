@@ -1,14 +1,12 @@
 .vivi {
     max-width: 1080px; 
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
-    background: linear-gradient(#50ADF8, #DC6CCD); 
-    background-clip: text;
-    -webkit-text-fill-color:transparent;
+    color: #411A5E;
     max-width: 520px;
     font-size: 62px;
 }

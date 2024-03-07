@@ -4,9 +4,8 @@ import Home from './Components/Home/Home';
 import { IconContext } from "react-icons"
 import Bio from './Components/Bio/Bio';
 import Skills from './Components/Skills/Skills';
+import Experiences from './Components/Experiences/Experiences';
 
-
- 
 function App() {
   return (
     <div>
@@ -14,10 +13,20 @@ function App() {
         <Header />
         <Home />
         <Bio />
+        <Experiences />
         <Skills/>
       </IconContext.Provider>
     </div>
   );
 }
+
+// const fontConfig = {
+//   default: {
+//     regular: {
+//       fontFamily: "sans-serif", "P22 Mackinac Pro";
+   
+//     }
+//   }
+// }
 
 export default App;
