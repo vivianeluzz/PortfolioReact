@@ -5,6 +5,7 @@ import { IconContext } from "react-icons"
 import Bio from './Components/Bio/Bio';
 import Skills from './Components/Skills/Skills';
 import Experiences from './Components/Experiences/Experiences';
+import Training from './Components/Training/Training';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <Bio />
         <Experiences />
+        <Training />
         <Skills/>
       </IconContext.Provider>
     </div>

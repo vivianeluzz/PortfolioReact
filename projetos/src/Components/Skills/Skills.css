@@ -6,9 +6,12 @@
 }
 
 h2 {
+    max-width: 648px;
+    height: 76px;
     color: #411A5E;
-    max-width: 520px;
-    font-size: 62px;
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'P22 Mackinac Pro';
 }
 
 .container {

@@ -1,0 +1,20 @@
+.class {
+    max-width: 1080px;
+    height: 1409px;
+}
+
+.training {
+    max-width: 520px;
+    height: 76px;
+    font-family: 'P22 Mackinack Pro';
+    font-weight: 800;
+    font-size: 64px;
+    color: #411A5E;
+}
+
+
+h2 {
+    font-size: 16px;
+    font-family: 'P22 Mackinack Pro';
+    color: #CC081B;
+}
