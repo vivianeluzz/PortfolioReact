@@ -2,53 +2,53 @@
     width: 240px;
     height: 266px;
     border-radius: 40px;
+    border: solid 1px #C5CFD4;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 .card-green {
-    background-color: #F3FBF5;
+    background-color: #FFFFFF;
   }
 
   .card-html{
-    background-color: #F8EFE8;
+    background-color: #FFFFFF;
   }
   .card-css{
-    background-color:#E7E9FA;
+    background-color:#FFFFFF;
   }
  
   .card-javas{
-    background-color: #F8F9EB;
+    background-color: #FFFFFF;
     
   }
   .card-react{
-    background-color:#EBF8FB;
+    background-color:#FFFFFF;
     
   }
   .card-aws{
-    background-color: #EDEAF6;
+    background-color: #FFFFFF;
     
   }
   .card-node{
-    background-color:#F1F6E6;
+    background-color:#FFFFFF;
     
   }
   .card-angular{
-    background-color:#F7E2E8;
+    background-color:#FFFFFF;
     
   }
   .card-type{
-    background-color:#EAEEF7;
+    background-color:#FFFFFF;
     
   }
   .card-figma{
-    background-color:#EAEEF7;
+    background-color:#FFFFFF;
     
   }
   .card-figma{
-    background-color:#E6F6FB;
-    
+    background-color:#FFFFFF; 
   }
 
 

@@ -9,7 +9,9 @@ import Nova from '../../assets/nova.png';
 
 function Skills() {
   return(
+
       <section className='vivi'>
+        <div className='content-div'>
           <h2>Minhas habilidades</h2>
           <li className='container'>
               <Card bgcolor="green" icon={Github} title="Github" />
@@ -25,8 +27,11 @@ function Skills() {
               <Card bgcolor="figma" icon={Javas} title="Figma" />
               <Card bgcolor="figma" icon={Nova} title="Figma" />
           </li>
+          </div>
       </section>
   );
 }
 
 export default Skills;
+
+  
