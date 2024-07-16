@@ -1,0 +1,14 @@
+.footer {
+    padding: 148px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(65, 26, 94, 0.6) 51.56%, #411A5E 83.33%, #411A5E 100%);
+    ;
+}
+
+.search-job {
+    display: flex;
+    max-width: 1080px;
+    font-size: 60px;
+    color: #F4E5FF;
+    font-family: 'P22 Mackinac Pro';
+    margin: 0 auto;
+}

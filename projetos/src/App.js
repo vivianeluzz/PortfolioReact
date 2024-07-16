@@ -6,6 +6,7 @@ import Bio from './Components/Bio/Bio';
 import Skills from './Components/Skills/Skills';
 import Experiences from './Components/Experiences/Experiences';
 import Training from './Components/Training/Training';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Experiences />
         <Training />
         <Skills/>
+        <Footer />
       </IconContext.Provider>
     </div>
   );
