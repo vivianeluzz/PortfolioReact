@@ -21,8 +21,8 @@ export const Experiences = () => {
             <div className='line'></div>
 
             <div className='companies'>
-                <h4 className='companies-name'>SEMINOVOS MOVIDA</h4>
-                <p className='years'>2021-2023</p>
+                <h4 className='companies-name'>Seminovos Movida</h4>
+                <p className='years'>Set-2021, Fev-2023</p>
             </div>
 
         </li>
@@ -43,7 +43,7 @@ export const Experiences = () => {
 
             <div className='companies'>
                 <h4 className='companies-name'>Gaia educação</h4>
-                <p className='years'>2021-2023</p>
+                <p className='years'>Nov-2020, Jul-2021</p>
             </div>
         </li>
 
@@ -61,16 +61,19 @@ export const Experiences = () => {
                 <div className='line'></div>
 
             <div className='companies'>
-                <h4 className='companies-name'>SEMINOVOS MOVIDA</h4>
-                <p className='years'>2021-2023</p>
+                <h4 className='companies-name'>Cruzando Histórias</h4>
+                <p className='years'>Mai-Jun, 2021</p>
             </div>
-
         </li>
     </ul>
     </div> 
     </div>
-
   )
 }
+
+// Instrutora Curso de Javascript para iniciantes 
+// Instrutora Curso de Javascript para iniciantes 
+
+
 
 export default Experiences;

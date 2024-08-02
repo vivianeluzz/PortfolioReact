@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 96%;
+    width: 100%;
     height: 692px;
     border-radius: 80px;
-    margin: 0 2% 0 2%;
+    margin-top: 40px;
     background: linear-gradient(104deg, #F4FAFE 0%, #FEFFFF 49.48%, #F9F3FE 100%); 
 }
 
@@ -24,16 +24,7 @@
 
 }
 
-/* section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 96%;
-    height: 692px;
-    border-radius: 80px;
-    margin: 0 2% 0 2%;
-    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE);  
-} */
+
 h1 {
     font-weight: 350;
     color:#411A5E;
@@ -73,6 +64,7 @@ h1 {
 }
 
 .tag-header {
+    margin: 0px;
     font-family: 'P22 Mackinac Pro';
     font-size: 20px;
     font-weight: 500;
@@ -86,8 +78,14 @@ main {
     align-items: center;
     margin-bottom: 380px;
 }
+.item-vetor {
+    position: relative;
+}
 
 .vetor {
+    position: absolute;
+    top:-20px;
+    left: -20px;
     width: 49px;
     height: 31px;
 }
@@ -102,6 +100,7 @@ main {
     padding: 16px 28px;
     color: #FFFFFF;
     text-decoration:none; 
+    margin-right: 32px;
 }
 
 .download {
@@ -116,10 +115,30 @@ main {
     margin: 0 8px;
 }
 
-/* 
-.vector {
-    width: 228px;
-    height: 27px;
-    margin: 0 auto;
-    padding-top: 12px;
-} */
+.botao-rotativo {
+    right: 120px;
+    position: fixed;
+}
+
+.circulo-rotativo {
+    animation: rotate-animation 10s infinite linear;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.emoji-curriculo {
+    position: absolute;
+    left: 27px;
+    top:33px;
+}
+

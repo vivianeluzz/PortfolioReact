@@ -23,7 +23,6 @@
     border-radius: 60px;
     padding: 64px;
     margin-bottom: 40px;
-    /* max-width: 806px;     */
 }
 
 .instituicao {
@@ -32,7 +31,6 @@
 }
 
 .logo {
-    width: 36px;
     height: 36px;
     margin-right: 12px;
 }
@@ -79,6 +77,7 @@
     background-color: #F7F7F7;
 }
 
+
 .courses.ecc-background {
     background-color: #FFF7F7;
 }
@@ -90,6 +89,16 @@
     color: #411A5E;
     margin: 20px 0 0 0;
     max-width: 806px;
+}
+
+.ecc-graduacao {
+    font-weight: 500;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 32px;
+    color: #B32335;
+    margin: 20px 0 0 0;
+    max-width: 806px;
+
 }
 .courses-container {
     display: flex;
@@ -141,4 +150,13 @@
     background-color: #F5F9FF;
     padding: 43px 40px;
    
+}
+
+.alura {
+    display: flex;
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: #0F509F;
+    margin-bottom: 4px;
 }
