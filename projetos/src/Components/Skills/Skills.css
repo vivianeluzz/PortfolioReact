@@ -24,6 +24,16 @@ h2 {
     font-family: 'P22 Mackinac Pro';
 }
 
+.github {
+    display: flex;
+    width: 500px;
+    border-radius: 40px;
+    border: solid 1px #D5E0E5;
+    gap:40px;
+    align-items: center;
+   
+}
+
 .container {
     max-width: 1080px;
     margin: 0 auto;
@@ -31,6 +41,50 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;  
+
+}
+
+.perfil-git {
+    width: 67px;
+    border-radius: 4px;
+
+}
+
+.github-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-git {
+    color: #547C5D;
+    font-size: 24px;
+    font-family:'P22 Mackinac Pro';
+    font-weight: 800;
+    margin-bottom: -16px;
+}
+
+.name-perfil {
+    color: #4F6B82;
+    font-size: 16px;
+    font-family:'P22 Mackinac Pro';
+    font-weight: 500;
+}
+
+.link-git {
+    color: #7052E1;
+    font-size: 16px;
+    font-family:'P22 Mackinac Pro';
+    text-decoration: none;
+
+
+}
+
+.vetor-git{
+    width: 76px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7052E1;
+    font-family:'P22 Mackinac Pro';
 
 }
 

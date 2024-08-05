@@ -6,6 +6,22 @@ import Html from '../../assets/html.png';
 import Javas from '../../assets/javas.png';
 import ReactJs from '../../assets/react.png';
 import Nova from '../../assets/nova.png';
+import Css from '../../assets/css.png';
+import Angular from '../../assets/angular.png';
+import Figma from '../../assets/figma.png';
+import Aws from '../../assets/aws.png';
+import TypeScript from '../../assets/typescript.png';
+import MySQL from '../../assets/mysql.png';
+import PerfilGit from '../../assets/perfilgit.png';
+import VetorGit from '../../assets/vetorgit.png';
+
+
+
+
+
+
+
+
 
 function Skills() {
   return(
@@ -14,18 +30,31 @@ function Skills() {
         <div className='content-div'>
           <h2>Minhas habilidades</h2>
           <li className='container'>
+            <div className='github'>
               <Card bgcolor="green" icon={Github} title="Github" />
+              <div className='github-content'>
+              <img className='perfil-git' src={PerfilGit} alt="" title="perfilgit" />
+
+                <h3 className='name-git'>Viviane Luz</h3>
+                <p className='name-perfil'>vivaneluzz</p>
+                <a className='link-git' href="https://github.com/vivianeluzz">Ver perfil</a>
+                <img className='vetor-git' src={VetorGit} alt="" title="vetorgit" />
+
+
+
+              </div>
+            
+            </div>
               <Card bgcolor="html" icon={Html} title="Html" />
-              <Card bgcolor="css" icon={Javas} title="Css 3" />
+              <Card bgcolor="css" icon={Javas} title="JavaScript" />
               <Card bgcolor="css" icon={ReactJs} title="React Js" />
-              <Card bgcolor="javas" icon={Javas} title="Javascript" />
-              <Card bgcolor="react" icon={Nova} title="ReactJs" />
-              <Card bgcolor="aws" icon={Github} title="Aws" />
-              <Card bgcolor="node" icon={Github} title="NodeJs" />
-              <Card bgcolor="angular" icon={Html} title="Angular" />
-              <Card bgcolor="type" icon={Github} title="TypeScript" />
-              <Card bgcolor="figma" icon={Javas} title="Figma" />
-              <Card bgcolor="figma" icon={Nova} title="Figma" />
+              <Card bgcolor="css" icon={Css} title="CSS" />
+              <Card bgcolor="react" icon={Nova} title="Node" />
+              <Card bgcolor="angular" icon={Angular} title="Angular" />
+              <Card bgcolor="figma" icon={Figma} title="Figma" />
+              <Card bgcolor="aws" icon={Aws} title="AWS" />
+              <Card bgcolor="type" icon={TypeScript} title="TypeScript" />
+              <Card bgcolor="mysql" icon={MySQL} title="MySQL" />
           </li>
           </div>
       </section>
