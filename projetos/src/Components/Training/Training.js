@@ -22,7 +22,7 @@ const Courses = ({ logo, name, link, duration, title, description, className }) 
 
 const Training = () => {
   return (
-    <section className='training-section'>
+    <section id="training-section" className='training-section'>
       <h4 className='training-title'>Formação</h4>
 
       <div className='mack'>
@@ -50,7 +50,9 @@ const Training = () => {
           link='https://www.mackenzie.br/'
           duration='Curso - 3 meses'
           title='Bootcamp JavaScript'
-          description='Formação com duração de 6 meses com aulas ao vivo online. A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, com as principais cerimônias do Scrum.'
+          description='Curso intensivo imersão Javascript, com carga horária de 264,5 horas, distribuídas entre: Test Driven Development, Pirâmide de Testes, Introdução à Orientação
+            a Objeto, Prototype no Javascript, Código Limpo, Refatoração, Competências
+            Socioemocionais e projetos práticos.'
           className='text-title'
         />
 
@@ -70,8 +72,8 @@ const Training = () => {
           name='Labenu'
           link='https://www.mackenzie.br/'
           duration='Curso - 3 meses'
-          title='Bootcamp JavaScript'
-          description='Formação com duração de 6 meses com aulas ao vivo online. A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, com as principais cerimônias do Scrum.'
+          title='Web Full-Stack'
+          description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, com as principais cerimônias do Scrum, projetos semanais e pŕaticas de code review, utilizando as aprincipais stacks, git, github, javascript, react, com carga horária de 1040 horas.'
           className='ecc-background'
         />
         <div className='course-extra'>

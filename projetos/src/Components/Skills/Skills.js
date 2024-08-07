@@ -26,7 +26,7 @@ import VetorGit from '../../assets/vetorgit.png';
 function Skills() {
   return(
 
-      <section className='vivi'>
+      <section id="skills-section" className='vivi'>
         <div className='content-div'>
           <h2>Minhas habilidades</h2>
           <li className='container'>

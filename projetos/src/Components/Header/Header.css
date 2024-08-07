@@ -1,3 +1,17 @@
+
+  .hamburguer {
+    display: none;
+  
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -19,3 +33,32 @@ li {
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .hamburguer {
+      display: block;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      right: 20px;
+    }
+    
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      /* background-color: rgb(202, 198, 198); */
+    }
+    
+    .nav-menu.open {
+      display: flex;
+    }
+    
+    .nav-link {
+      margin: 10px 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
