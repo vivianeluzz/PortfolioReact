@@ -46,6 +46,7 @@ h2 {
 
 .perfil-git {
     width: 67px;
+    height: 67px;
     border-radius: 4px;
 
 }
@@ -88,3 +89,30 @@ h2 {
 
 }
 
+@media (max-width: 800px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    .github-content {
+        flex-direction: row;
+    }
+
+    .name-perfil {
+        margin: 0px 0px 8px 0px;
+    }
+
+    .name-git {
+        margin: 0;
+    }
+
+    .perfil-git {
+        margin-right: 16px;
+    }
+
+    .github {
+        padding-bottom: 40px;
+    }
+    
+}

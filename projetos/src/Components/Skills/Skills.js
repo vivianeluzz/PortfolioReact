@@ -35,12 +35,14 @@ function Skills() {
               <div className='github-content'>
               <img className='perfil-git' src={PerfilGit} alt="" title="perfilgit" />
 
+              <div>
+
                 <h3 className='name-git'>Viviane Luz</h3>
                 <p className='name-perfil'>vivaneluzz</p>
                 <a className='link-git' href="https://github.com/vivianeluzz">Ver perfil</a>
                 <img className='vetor-git' src={VetorGit} alt="" title="vetorgit" />
 
-
+              </div>
 
               </div>
             

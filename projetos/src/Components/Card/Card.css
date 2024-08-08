@@ -52,3 +52,14 @@
   }
 
 
+  @media (max-width: 800px) {
+
+    .card {
+        width: 46%;
+    }
+
+     .card-green {
+      width: 100%;
+    }
+    
+}

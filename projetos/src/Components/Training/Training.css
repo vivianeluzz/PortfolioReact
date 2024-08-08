@@ -160,3 +160,20 @@
     color: #0F509F;
     margin-bottom: 4px;
 }
+
+
+@media (max-width: 800px) {
+    .courses {
+        max-width: 100%;
+    }
+
+    .course-extra {
+        width: 100%;
+    }
+
+    .github{
+        flex-direction: column;
+    }
+
+    
+}
