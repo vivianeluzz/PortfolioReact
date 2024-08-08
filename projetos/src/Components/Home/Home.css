@@ -142,3 +142,24 @@ main {
     top:33px;
 }
 
+@media (max-width: 800px) {
+
+    h1{
+        font-size: 28px;
+        padding: 8px;
+    }
+
+    .tag-header {
+        font-size: 12px;
+    }
+
+    .personalPage {
+        margin-top: 20px;
+    }
+
+    .git {
+        margin-right: 6px;
+    }
+
+
+}

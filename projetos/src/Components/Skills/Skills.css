@@ -17,7 +17,7 @@ linear-gradient(0deg, #FEFCFF, #FEFCFF);
 
 h2 {
     max-width: 648px;
-    height: 76px;
+    /* height: 76px; */
     color: #411A5E;
     font-size: 64px;
     font-weight: 800;
@@ -81,15 +81,21 @@ h2 {
 }
 
 .vetor-git{
+    display: flex;
+    flex-direction: column;
     width: 76px;
     font-size: 16px;
     font-weight: 800;
     color: #7052E1;
     font-family:'P22 Mackinac Pro';
-
 }
 
 @media (max-width: 800px) {
+
+    h2{
+        font-size: 34px;
+        text-align: center;
+    }
 
     .container {
         max-width: 100%;
@@ -113,6 +119,10 @@ h2 {
 
     .github {
         padding-bottom: 40px;
+    }
+
+    .vivi {
+        padding: 10px;
     }
     
 }

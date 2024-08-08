@@ -43,3 +43,13 @@
 
 }
 
+@media (max-width: 800px) {
+
+    .search-job {
+        font-size: 20px;
+    }
+
+    .text-contact {
+        font-size: 12px;
+    }
+}

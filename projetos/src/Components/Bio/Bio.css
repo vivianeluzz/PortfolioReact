@@ -21,5 +21,12 @@
 .emoji {
     width: 286px;
     margin: 0 auto;
+}
 
+@media (max-width: 800px) {
+
+    .infos {
+        margin-top: 20px;
+    }
+   
 }

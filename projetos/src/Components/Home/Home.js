@@ -8,9 +8,6 @@ import Vetor from '../../assets/vetor.png';
 import Curr from '../../assets/curremoji.svg';
 import Emoji from '../../assets/emojiavatar.png';
 
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
-// import Vector from '../../assets/vector.svg';
-
 export const Home = () => {
     return (
         <section className='personalPage'>
@@ -23,7 +20,6 @@ export const Home = () => {
                     <p className='tag'>na</p>
                     <div className='header'><p className='tag-header'>Mackenzie</p></div>
                 </div>
-
                 <main className='item-vetor'>
                     <img className='vetor' src={Vetor} alt="" title=''/> 
                     <a className='git' href="https://vivianeluzz@gmail.com"> <img  className='download' src={Download} alt="" title='' />
@@ -37,9 +33,6 @@ export const Home = () => {
                     </div>
                 </main>
             </div>
-
-           
- 
         </section>
     );
 }

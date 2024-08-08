@@ -16,13 +16,6 @@ import PerfilGit from '../../assets/perfilgit.png';
 import VetorGit from '../../assets/vetorgit.png';
 
 
-
-
-
-
-
-
-
 function Skills() {
   return(
 
@@ -34,18 +27,13 @@ function Skills() {
               <Card bgcolor="green" icon={Github} title="Github" />
               <div className='github-content'>
               <img className='perfil-git' src={PerfilGit} alt="" title="perfilgit" />
-
               <div>
-
                 <h3 className='name-git'>Viviane Luz</h3>
                 <p className='name-perfil'>vivaneluzz</p>
                 <a className='link-git' href="https://github.com/vivianeluzz">Ver perfil</a>
                 <img className='vetor-git' src={VetorGit} alt="" title="vetorgit" />
-
               </div>
-
               </div>
-            
             </div>
               <Card bgcolor="html" icon={Html} title="Html" />
               <Card bgcolor="css" icon={Javas} title="JavaScript" />

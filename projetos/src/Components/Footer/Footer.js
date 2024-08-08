@@ -1,16 +1,12 @@
 import React from 'react';
 import './Footer.css';
-
-
 import Git from '../../assets/Github_footer.png';
 import Linkedin from '../../assets/Linkedin_footer.png';
 
 const Footer = () => {
   return (
     <footer className='footer'>
-
     <div className='contact'>
-    
       <p className='search-job'>Estou buscando uma oportunidade como desenvolvedora Front-end.</p>
       <div className='social-media'>
         <a className='text-contact' href='mailto:vivianesluzz@gmail.com'>vivianesluzz@gmail.com</a>
@@ -24,3 +20,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

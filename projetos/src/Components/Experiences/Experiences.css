@@ -129,8 +129,15 @@ ol {
     }
 
 
-    .experiencies-description {
+    .professionals {
+        font-size: 46px;
+        text-align: center;
+        /* margin: 0 auto; */
 
+    }
+
+    .experiences h3 {
+        font-size: 24px;
     }
        
     
