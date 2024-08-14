@@ -56,10 +56,16 @@
 
     .card {
         width: 46%;
+        height: 190px;
     }
 
      .card-green {
       width: 100%;
+    }
+
+    .img-icone {
+      max-width: 64px;
+      max-height: 64px;
     }
     
 }

@@ -1,5 +1,5 @@
 body {
-    padding: 20px;
+    padding: 16px;
 }
 .experiences {
     display: flex;
@@ -133,11 +133,14 @@ ol {
         font-size: 46px;
         text-align: center;
         /* margin: 0 auto; */
-
     }
 
     .experiences h3 {
         font-size: 24px;
+    }
+
+    .experiences {
+        border-radius: 40px;
     }
        
     

@@ -14,7 +14,7 @@ export const Home = () => {
             <img className='avatar' src={Avatar} alt="Avatar de imagem" title='Avatar' />
 
             <div className='header-content'>
-                <h1>Olá! Sou Viviane Luz, uma desenvolvedora Front-end.</h1>
+                <h1>Olá! Sou Viviane Luz, desenvolvedora Front-end.</h1>
                 <div className='form'><p className='tag'>Cursando</p>
                     <div className='header'><p className='tag-header'>Análise e desenvolvimento de sistemas</p></div>
                     <p className='tag'>na</p>

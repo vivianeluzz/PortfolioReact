@@ -37,7 +37,6 @@
 
 .title {
     max-width: 806px;
-    height: 96px;
     font-weight: 500;
     font-family: 'P22 Mackinac Pro';
     font-size: 40px;
@@ -165,6 +164,19 @@
 @media (max-width: 800px) {
     .courses {
         max-width: 100%;
+        border-radius: 40px;
+        padding: 28px;
+
+    }
+
+    .courses-1 {
+        padding: 28px;
+    }
+
+    .courses-full {
+        border-radius: 40px;
+        margin-bottom: 24px;
+        padding: 28px;
     }
 
     .course-extra {
@@ -173,6 +185,10 @@
 
     .github{
         flex-direction: column;
+    }
+
+    .ecc-graduacao {
+        font-size: 30px;
     }
 
     
