@@ -9,7 +9,7 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-# ✔️ Projeto meu portfólio realizado em react e responsivo.
+# ✔️ Portfólio feito em react e responsivo.
 O projeto foi elaborado em Html, Css, React, Node e metodologias Flexbox. Utilizando o editor de código Visual Studio Code, para o desenvolvimento.
 
  :hammer:  Técnicas e tecnologias utilizadas
