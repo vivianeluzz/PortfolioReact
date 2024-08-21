@@ -1,57 +1,144 @@
+.personalPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 692px;
+    border-radius: 80px;
+    margin-top: 40px;
+    background: linear-gradient(104deg, #F4FAFE 0%, #FEFFFF 49.48%, #F9F3FE 100%); 
+}
+
 .avatar {
     border-radius: 60px;
     width: 120px;
     margin-top: -2%;
 }
 
-/* section {
+.header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 96%;
-    height: 692px;
-    border-radius: 80px;
-    margin: 0 2% 0 2%;
-    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE);  
-} */
+    max-width: 1080px;
+    margin-bottom: 310px;
+
+}
+
 
 h1 {
-    font-weight: 400;
-    color:#4F6B82;
-    font-family: 'P22Mackinac';
+    font-weight: 350;
+    color:#411A5E;
+    font-family: 'P22 Mackinac Pro';
     font-size: 60px;
     text-align: center;
     margin: 0 auto;
     padding: 40px;
+    height: 142px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 90px;
+    max-width: 827px;
+    height: 40px;
 }
 
-main {
+.tag {
+    font-family: 'P22 Mackinac Pro';
+    color:#5F496F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.personalPage {
+.header {
     display: flex;
-    flex-direction: column;
+    margin: 0 8px;
+    border-radius: 50px;
+    background-color: #F4E5FF;
+    padding: 8px 16px;
+
+}
+
+.tag-header {
+    margin: 0px;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #411A5E;
+}
+
+main {
+    max-width: 1080px;
+    display: flex;
     align-items: center;
-    width: 96%;
-    height: 692px;
-    border-radius: 80px;
-    margin: 0 2% 0 2%;
-    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE); 
+    margin-bottom: 380px;
+}
+.item-vetor {
+    position: relative;
 }
 
-.social-links {
+.vetor {
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    width: 49px;
+    height: 31px;
+}
+.git {
     display: flex;
-    flex-direction: row; 
+    align-items: center;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #411A5E;
+    border-radius: 70px;
+    padding: 16px 28px;
+    color: #FFFFFF;
+    text-decoration:none; 
+    margin-right: 32px;
 }
 
-.social-links a {
-    margin-right: 40px;
+.download {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
 }
 
-.vector {
-    width: 228px;
-    height: 27px;
-    margin: 0 auto;
-    padding-top: 12px;
+.social {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
 }
+
+.botao-rotativo {
+    right: 120px;
+    position: fixed;
+}
+
+.circulo-rotativo {
+    animation: rotate-animation 10s infinite linear;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.emoji-curriculo {
+    position: absolute;
+    left: 27px;
+    top:33px;
+}
+

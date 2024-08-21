@@ -1,0 +1,54 @@
+.card  {
+    width: 240px;
+    height: 266px;
+    border-radius: 40px;
+    border: solid 1px #C5CFD4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-green {
+    background-color: #FFFFFF;
+  }
+
+  .card-html{
+    background-color: #FFFFFF;
+  }
+  .card-css{
+    background-color:#FFFFFF;
+  }
+ 
+  .card-javas{
+    background-color: #FFFFFF;
+    
+  }
+  .card-react{
+    background-color:#FFFFFF;
+    
+  }
+  .card-aws{
+    background-color: #FFFFFF;
+    
+  }
+  .card-node{
+    background-color:#FFFFFF;
+    
+  }
+  .card-angular{
+    background-color:#FFFFFF;
+    
+  }
+  .card-type{
+    background-color:#FFFFFF;
+    
+  }
+  .card-figma{
+    background-color:#FFFFFF;
+    
+  }
+  .card-figma{
+    background-color:#FFFFFF; 
+  }
+
+
