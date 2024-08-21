@@ -11,13 +11,11 @@
     border-radius: 80px;
     border: solid 1px #D5E0E5;
     background: linear-gradient(180deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%),
-linear-gradient(0deg, #FEFCFF, #FEFCFF);
-
+    linear-gradient(0deg, #FEFCFF, #FEFCFF);
   }
 
 h2 {
     max-width: 648px;
-    /* height: 76px; */
     color: #411A5E;
     font-size: 64px;
     font-weight: 800;
@@ -31,7 +29,6 @@ h2 {
     border: solid 1px #D5E0E5;
     gap:40px;
     align-items: center;
-   
 }
 
 .container {
@@ -76,8 +73,6 @@ h2 {
     font-size: 16px;
     font-family:'P22 Mackinac Pro';
     text-decoration: none;
-
-
 }
 
 .vetor-git{
@@ -126,6 +121,5 @@ h2 {
         margin-top: 46px;
         border-radius: 40px;
         width: auto;
-    }
-    
+    } 
 }

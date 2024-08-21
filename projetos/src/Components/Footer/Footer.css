@@ -30,7 +30,6 @@
     font-size: 60px;
     color: #F4E5FF;
     text-align: center;
-    /* margin: 0 auto; */
 }
 
 .text-contact {
@@ -40,7 +39,6 @@
     margin: 0 16px;
     font-family: 'P22 Mackinac Pro';
     font-weight: 500;
-
 }
 
 @media (max-width: 800px) {

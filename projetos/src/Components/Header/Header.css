@@ -10,8 +10,6 @@
     list-style: none;
   }
   
-
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -29,7 +27,6 @@ li {
     color: #4F6B82;
     text-decoration: none;
     list-style: none;
-    /* margin: 40px; */
     font-weight: 700;
 }
 
@@ -49,7 +46,6 @@ li {
       top: 50px;
       left: 0;
       width: 100%;
-      /* background-color: rgb(202, 198, 198); */
     }
     
     .nav-menu.open {

@@ -9,14 +9,11 @@ import Curr from '../../assets/curremoji.svg';
 import Emoji from '../../assets/emojiavatar.png';
 import Curriculo from '../../assets/curriculo.pdf';
 
-
 export const Home = () => {
-
 
     return (
         <section className='personalPage'>
             <img className='avatar' src={Avatar} alt="Avatar de imagem" title='Avatar' />
-
             <div className='header-content'>
                 <h1>Olá! Sou Viviane Luz, desenvolvedora Front-end.</h1>
                 <div className='form'><p className='tag'>Cursando</p>
@@ -25,20 +22,17 @@ export const Home = () => {
                     <div className='header'><p className='tag-header'>Mackenzie</p></div>
                 </div>
                 <main className='item-vetor'>
-                    <img className='vetor' src={Vetor} alt="" title=''/> 
-                    <a  className="git" href={Curriculo} download="curriculo.pdf"> <img  className='download' src={Download} alt="" title='' />
-                    Baixe meu currículo</a>
-
-
-                    <a href="https://github.com/vivianeluzz"> <img className='social' src={Git} alt="" title=''/></a>
-                    <a href="https://www.linkedin.com/in/viviane-luz/"> <img className='social' src={Linkedin} alt="" title=''/></a>
-                    {/* <img className='vector' src={Vector} alt='Imagem de vetor' title='Vetor' /> */}
-                    <a href={Curriculo} download="curriculo.pdf"> <img  src={Curriculo} alt="" title='' />
-                    <div className='botao-rotativo'>
-                        <img className='circulo-rotativo' src={Curr} alt="" title=''/> 
-                        <img className='emoji-curriculo' src={Emoji} alt="" title=''/> 
-                    </div>
-                    </a> 
+                    <img className='vetor' src={Vetor} alt="" title='' />
+                    <a className="git" href={Curriculo} download="curriculo.pdf"> <img className='download' src={Download} alt="" title='' />
+                        Baixe meu currículo</a>
+                    <a href="https://github.com/vivianeluzz"> <img className='social' src={Git} alt="" title='' /></a>
+                    <a href="https://www.linkedin.com/in/viviane-luz/"> <img className='social' src={Linkedin} alt="" title='' /></a>
+                    <a href={Curriculo} download="curriculo.pdf"> <img src={Curriculo} alt="" title='' />
+                        <div className='botao-rotativo'>
+                            <img className='circulo-rotativo' src={Curr} alt="" title='' />
+                            <img className='emoji-curriculo' src={Emoji} alt="" title='' />
+                        </div>
+                    </a>
                 </main>
             </div>
         </section>

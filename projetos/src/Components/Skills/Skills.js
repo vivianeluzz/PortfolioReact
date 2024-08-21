@@ -15,10 +15,8 @@ import MySQL from '../../assets/mysql.png';
 import PerfilGit from '../../assets/perfilgit.png';
 import VetorGit from '../../assets/vetorgit.png';
 
-
 function Skills() {
   return(
-
       <section id="skills-section" className='vivi'>
         <div className='content-div'>
           <h2>Minhas habilidades</h2>
