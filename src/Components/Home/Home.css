@@ -1,0 +1,178 @@
+.personalPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 692px;
+    border-radius: 80px;
+    margin-top: 40px;
+    background: linear-gradient(104deg, #F4FAFE 0%, #FEFFFF 49.48%, #F9F3FE 100%); 
+}
+
+.avatar {
+    border-radius: 60px;
+    width: 120px;
+    margin-top: -2%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1080px;
+    margin-bottom: 310px;
+
+}
+
+
+h1 {
+    font-weight: 350;
+    color:#411A5E;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    height: 142px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 90px;
+    max-width: 827px;
+}
+
+.tag {
+    font-family: 'P22 Mackinac Pro';
+    color:#5F496F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    margin: 0 8px;
+    border-radius: 50px;
+    background-color: #F4E5FF;
+    padding: 8px 16px;
+
+}
+
+.tag-header {
+    margin: 0px;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #411A5E;
+}
+
+main {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 380px;
+}
+.item-vetor {
+    position: relative;
+}
+
+.vetor {
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    width: 49px;
+    height: 31px;
+}
+.git {
+    display: flex;
+    align-items: center;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #411A5E;
+    border-radius: 70px;
+    padding: 16px 28px;
+    color: #FFFFFF;
+    text-decoration:none; 
+    margin-right: 32px;
+}
+
+.download {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+}
+
+.botao-rotativo {
+    right: 40px;
+    bottom: 155px;
+    position: fixed;
+}
+
+.circulo-rotativo {
+    animation: rotate-animation 10s infinite linear;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.emoji-curriculo {
+    position: absolute;
+    left: 27px;
+    top:33px;
+}
+
+@media (max-width: 800px) {
+
+    h1{
+        font-size: 32px;
+    }
+
+    .tag-header {
+        font-size: 12px;
+    }
+
+    .personalPage {
+        margin-top: 20px;
+    }
+
+    .git {
+        margin-right: 6px;
+    }
+
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .tag {
+        margin: 0px;
+    }
+
+    .botao-rotativo{
+        bottom: 20px;
+        right: 20px;
+
+    }
+}
