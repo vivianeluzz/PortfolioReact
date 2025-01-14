@@ -11,17 +11,24 @@
     border-radius: 80px;
     border: solid 1px #D5E0E5;
     background: linear-gradient(180deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%),
-linear-gradient(0deg, #FEFCFF, #FEFCFF);
-
+    linear-gradient(0deg, #FEFCFF, #FEFCFF);
   }
 
 h2 {
     max-width: 648px;
-    height: 76px;
     color: #411A5E;
     font-size: 64px;
     font-weight: 800;
     font-family: 'P22 Mackinac Pro';
+}
+
+.github {
+    display: flex;
+    width: 500px;
+    border-radius: 40px;
+    border: solid 1px #D5E0E5;
+    gap:40px;
+    align-items: center;
 }
 
 .container {
@@ -34,3 +41,85 @@ h2 {
 
 }
 
+.perfil-git {
+    width: 67px;
+    height: 67px;
+    border-radius: 4px;
+
+}
+
+.github-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-git {
+    color: #547C5D;
+    font-size: 24px;
+    font-family:'P22 Mackinac Pro';
+    font-weight: 800;
+    margin-bottom: -16px;
+}
+
+.name-perfil {
+    color: #4F6B82;
+    font-size: 16px;
+    font-family:'P22 Mackinac Pro';
+    font-weight: 500;
+}
+
+.link-git {
+    color: #7052E1;
+    font-size: 16px;
+    font-family:'P22 Mackinac Pro';
+    text-decoration: none;
+}
+
+.vetor-git{
+    display: flex;
+    flex-direction: column;
+    width: 76px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7052E1;
+    font-family:'P22 Mackinac Pro';
+}
+
+@media (max-width: 800px) {
+
+    h2{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .github-content {
+        flex-direction: row;
+    }
+
+    .name-perfil {
+        margin: 0px 0px 8px 0px;
+    }
+
+    .name-git {
+        margin: 0;
+    }
+
+    .perfil-git {
+        margin-right: 16px;
+    }
+
+    .github {
+        padding-bottom: 40px;
+    }
+
+    .vivi {
+        padding: 10px;
+        margin-top: 46px;
+        border-radius: 40px;
+        width: auto;
+    } 
+}

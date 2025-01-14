@@ -1,12 +1,10 @@
 body {
-    padding: 20px;
+    padding: 16px;
 }
 .experiences {
     display: flex;
-    height: 735px;
     flex-direction: column;
-    /* align-items: center; */
-    padding: 80px 160px;
+    padding: 40px 20px;
     border-radius: 80px;
     border: 1px solid #D5E0E5;
     background: linear-gradient(0deg, #FEFCFF 0%, #FEFCFF 100%), linear-gradient(104deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%);
@@ -14,26 +12,22 @@ body {
 
 .experiencies-description {
     width: 100%;
-    height: 130px;
     /* font-family: 'P22 Mackinac Pro'; */
-    /* font-size: 16px; */
     font-weight: 500;
-    /* color: #5F496F; */
     margin-top: 25px;
 }
 
 .list-experiences{
     width: 100%;
-    height: 340px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     padding: 0;
+    grid-area: 20px;
 }
 .itens-experiencies {
-    width: 32%;
+    width: 100%;
     padding: 0;
-
 }
 
 .professionals {
@@ -61,13 +55,7 @@ ol {
     padding: 0;
 }
 
-/* .language-tags{
-    padding: 4px 8px;
-    background-color: #F4E5FF;
-    max-width: 220px;
-    border-radius: 50px;
 
-} */
 .language-tags li {
     margin: 0 4px;
 }
@@ -119,4 +107,26 @@ ol {
     font-weight: 500;
     font-size: 12px;
     color: #5F496F;
+}
+
+
+@media (max-width: 800px){
+    
+    .list-experiences {
+        flex-direction: column;
+    }
+
+    .professionals {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .experiences h3 {
+        font-size: 24px;
+    }
+
+    .experiences {
+        border-radius: 40px;
+    }
+         
 }

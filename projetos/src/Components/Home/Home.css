@@ -41,7 +41,6 @@ h1 {
     font-weight: 500;
     margin-bottom: 90px;
     max-width: 827px;
-    height: 40px;
 }
 
 .tag {
@@ -116,7 +115,8 @@ main {
 }
 
 .botao-rotativo {
-    right: 120px;
+    right: 40px;
+    bottom: 155px;
     position: fixed;
 }
 
@@ -142,3 +142,37 @@ main {
     top:33px;
 }
 
+@media (max-width: 800px) {
+
+    h1{
+        font-size: 32px;
+    }
+
+    .tag-header {
+        font-size: 12px;
+    }
+
+    .personalPage {
+        margin-top: 20px;
+    }
+
+    .git {
+        margin-right: 6px;
+    }
+
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .tag {
+        margin: 0px;
+    }
+
+    .botao-rotativo{
+        bottom: 20px;
+        right: 20px;
+
+    }
+}

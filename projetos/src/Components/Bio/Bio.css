@@ -4,7 +4,7 @@
     margin: 0 auto;
     justify-content: space-around;
     margin-top: 160px;
-    width: 800px;
+    max-width: 800px;
     margin-bottom: 160px;
 }
 
@@ -14,12 +14,19 @@
     font-weight: 400;
     color: #000000;
     letter-spacing: 2%;
-    /* text-align: center; */
     margin: 0 auto;
 }
 
 .emoji {
     width: 286px;
     margin: 0 auto;
+}
 
+@media (max-width: 800px) {
+
+    .infos {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+   
 }
