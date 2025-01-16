@@ -19,7 +19,7 @@ function Header() {
           <li><Link smooth to="/#bio-section" className="nav-link">Sobre Mim</Link></li>
           <li><Link smooth to="/#skills-section" className="nav-link">Habilidades</Link></li>
           <li><Link smooth to="/#training-section" className="nav-link">Formação</Link></li>
-          <li><Link smooth to="/#bio-section" className="nav-link">Projetos</Link></li>
+          <li><Link smooth to="/#portfolio-section" className="nav-link">Projetos</Link></li>
       </nav>
     </header>
 

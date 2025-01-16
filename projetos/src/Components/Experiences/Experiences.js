@@ -14,9 +14,9 @@ return (
                <li className='tag-experiencies'>CSS</li>
                <li className='tag-experiencies'>GIT</li>
             </ol>
-            <p className='experiencies-description'>Formação com duração de 6 meses com aulas ao vivo online. 
-               A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, 
-               com as principais cerimônias do Scrum.
+            <p className='experiencies-description'>
+            Fendo responsável pela criação, manutenção, melhoria de páginas e fluxos de venda. Incluindo a implementação de novas landing pages. 
+            Colaborando com o time de UX, garantindo que os layouts fossem fiéis aos designs propostos e uma experiência de usuário fluida e intuitiva.
             </p>
             <div className='line'></div>
             <div className='companies'>
@@ -32,9 +32,9 @@ return (
                <li className='tag-experiencies'>WORDPRESS</li>
                <li className='tag-experiencies'>AWS</li>
             </ol>
-            <p className='experiencies-description'>Formação com duração de 6 meses com aulas ao vivo online. 
-               A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, 
-               com as principais cerimônias do Scrum.
+            <p className='experiencies-description'>
+            Fui responsável pela criação e manutenção das páginas. Para a infraestrutura utilizei AWS. 
+            Html, Css e Wordpress para estruturar e estilizar páginas em temas em Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
             </p>
             <div className='line'></div>
             <div className='companies'>
@@ -50,14 +50,14 @@ return (
                <li className='tag-experiencies'>HTML</li>
                <li className='tag-experiencies'>CSS</li>
             </ol>
-            <p className='experiencies-description'>Formação com duração de 6 meses com aulas ao vivo online. 
-               A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, 
-               com as principais cerimônias do Scrum.
+            <p className='experiencies-description'>Atuei como educadora voluntária nas aulas inaugural e de encerramento, do curso online Mundo
+            Digital do Trabalho, ofertado pela Recode (Ead) com o objetivo de engajar e apoiar as participantes durante essa jornada de
+            aprendizado digital.
             </p>
             <div className='line'></div>
             <div className='companies'>
                <h4 className='companies-name'>Cruzando Histórias</h4>
-               <p className='years'>Mai-Jun, 2021</p>
+               <p className='years'>Mai-Jun, 2021, Dez-2024</p>
             </div>
          </li>
       </ul>

@@ -6,6 +6,7 @@ import Bio from './Components/Bio/Bio';
 import Skills from './Components/Skills/Skills';
 import Experiences from './Components/Experiences/Experiences';
 import Training from './Components/Training/Training';
+import Portfolio from './Components/Portfolio/Portfolio';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function App() {
           <Bio />
           <Experiences />
           <Training />
+          <Portfolio />
           <Skills />
           <Footer />
         </Router>
@@ -32,13 +34,5 @@ function App() {
   );
 }
 
-// const fontConfig = {
-//   default: {
-//     regular: {
-//       fontFamily: "sans-serif", "P22 Mackinac Pro";
-
-//     }
-//   }
-// }
 
 export default App;

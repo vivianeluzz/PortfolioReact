@@ -1,0 +1,202 @@
+.training-section {
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.training-title {
+    font-family: 'P22 Mackinack Pro';
+    font-weight: 800;
+    font-size: 64px;
+    color: #411A5E;
+    margin-bottom: 55px;
+    width: 100%;
+}
+.mack {
+    width: 100%;
+}
+
+.courses-full{
+    background-color: #FFF7F7;
+    border-radius: 60px;
+    padding: 64px;
+    margin-bottom: 40px;
+    height: 200px;
+}
+
+ .Movida1 {
+    background-image: url("../../assets/Movida1.png");
+    background-size: cover;
+    margin:0px;
+}
+
+.instituicao {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    height: 36px;
+    margin-right: 12px;
+}
+
+.title {
+    max-width: 806px;
+    font-weight: 500;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 40px;
+    color: #411A5E;
+    margin: 20px 0 0 0;
+}
+
+.cursando {
+    max-width: 520px;
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 500;
+    font-size: 16px;
+    color: #5F496F;
+    margin-top: 24px
+}
+
+.faculdade {
+    display: flex;
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: #CC081B;
+    margin-bottom: 4px;
+}
+
+.duration {
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    color: #411A5E;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses.caelum-background {
+    background-color: #F7F7F7;
+}
+
+
+.courses.ecc-background {
+    background-color: #FFF7F7;
+}
+
+.graduacao {
+    font-weight: 500;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 32px;
+    color: #411A5E;
+    margin: 20px 0 0 0;
+    max-width: 806px;
+}
+
+.ecc-graduacao {
+    font-weight: 500;
+    font-family: 'P22 Mackinac Pro';
+    font-size: 32px;
+    color: #B32335;
+    margin: 20px 0 0 0;
+    max-width: 806px;
+
+}
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.courses{
+    max-width: 48%;
+    background-color: #FBF5FF;
+    border-radius: 60px;
+    padding: 64px;
+    font-family: 'P22 Mackinac Pro';
+    color: #5F496F;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.description {
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 500;
+    font-size: 16px;
+    color: #5F496F;
+}
+
+#caelum{
+    background-color: #F7F7F7;
+}
+
+
+.extra-courses-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.course-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%;
+
+}
+
+.courses-1 {
+    max-width: 520px;
+    border-radius: 40px;
+    background-color: #F5F9FF;
+    padding: 43px 40px;
+   
+}
+
+.alura {
+    display: flex;
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: #0F509F;
+    margin-bottom: 4px;
+}
+
+
+@media (max-width: 800px) {
+    .courses {
+        max-width: 100%;
+        border-radius: 40px;
+        padding: 28px;
+
+    }
+
+    .courses-1 {
+        padding: 28px;
+    }
+
+    .courses-full {
+        border-radius: 40px;
+        margin-bottom: 24px;
+        padding: 28px;
+    }
+
+    .course-extra {
+        width: 100%;
+    }
+
+    .github{
+        flex-direction: column;
+    }
+
+    .ecc-graduacao {
+        font-size: 30px;
+    }
+
+    
+}

@@ -35,8 +35,7 @@ return (
          </div>
          <p className='graduacao'>Graduação em Análise e desenvolvimento de Sistemas</p>
          <p className='cursando'>
-            Estou cursando a graduação de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie,
-            com previsão de formatura em 2024.
+            Estou cursando a graduação de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie.
          </p>
       </div>
    </div>

@@ -24,12 +24,12 @@ function Skills() {
             <div className='github'>
               <Card bgcolor="green" icon={Github} title="Github" />
               <div className='github-content'>
-              <img className='perfil-git' src={PerfilGit} alt="" title="perfilgit" />
+              <img className='perfil-git' src={PerfilGit} alt="Link para Github" title="perfilgit" />
               <div>
                 <h3 className='name-git'>Viviane Luz</h3>
                 <p className='name-perfil'>vivaneluzz</p>
                 <a className='link-git' href="https://github.com/vivianeluzz">Ver perfil</a>
-                <img className='vetor-git' src={VetorGit} alt="" title="vetorgit" />
+                <img className='vetor-git' src={VetorGit} alt="Vetor para Github" title="vetorgit" />
               </div>
               </div>
             </div>
