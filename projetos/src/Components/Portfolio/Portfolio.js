@@ -1,25 +1,5 @@
 import React from 'react';
 import './Portfolio.css';
-import MackenzieLogo from '../../assets/mackenzie-logo.png';
-import ReprogramaLogo from '../../assets/reprograma.png';
-import CaelumLogo from '../../assets/caelum.png';
-import EccLogo from '../../assets/ecc.png';
-import AluraLogo from '../../assets/alura.png';
-
-
-const Courses = ({ logo, name, link, duration, title, description, className }) => (
-   <div className={`courses ${className}`}>
-      <div className='instituicao'>
-         <img className='logo' src={logo} alt={name} title={name} />
-         <div className='name'>
-            <a className='link' href={link}>{name}</a>
-            <span className='duration'>{duration}</span>
-         </div>
-      </div>
-      <p className='title'>{title}</p>
-      <p className='description'>{description}</p>
-   </div>
-);
 const Portfolio = () => {
    return (
       <section id="portfolio-section" className='training-section'>
