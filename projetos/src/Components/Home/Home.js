@@ -22,7 +22,7 @@ export const Home = () => {
                     <div className='header'><p className='tag-header'>Mackenzie</p></div>
                 </div>
                 <main className='item-vetor'>
-                    <img className='vetor' src={Vetor} alt="" title='' />
+                    <img className='vetor' src={Vetor} alt="Vetor" title='' />
                     <a className="git" href={Curriculo} download="Currículo - Viviane Luz.pdf"> <img className='download' src={Download} alt="" title='' />
                         Baixe meu currículo</a>
                     <a href="https://github.com/vivianeluzz"> <img className='social' src={Git} alt="" title='' /></a>
