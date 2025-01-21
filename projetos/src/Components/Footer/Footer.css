@@ -19,15 +19,31 @@
     max-width: 1080px;
     margin: 0 auto;
 }
+.social {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+
+}
 
 .social-media {
 
     max-width: 536px;
 }
 
+.social-contact {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-media a:hover {
+    opacity: 0.8; /* Adicione um feedback visual */
+
+}
+
 .search-job {
     max-width: 1080px;
-    font-size: 60px;
+    font-size: 20px;
     color: #F4E5FF;
     text-align: center;
 }
@@ -44,7 +60,7 @@
 @media (max-width: 800px) {
 
     .search-job {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .text-contact {

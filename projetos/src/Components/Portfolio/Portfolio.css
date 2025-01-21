@@ -18,12 +18,12 @@
     width: 100%;
 }
 
-.courses-full{
+.full{
     background-color: #FFF7F7;
     border-radius: 60px;
     padding: 64px;
-    margin-bottom: 40px;
-    height: 200px;
+    margin-bottom: 60px;
+    height: 240px;
 }
 
  .Movida1 {
@@ -31,9 +31,21 @@
     background-size: cover;
     margin:0px;
 }
+.AmazonLP {
+    background-image: url("../../assets/AmazonLP.jpg");
+    background-size: cover;
+    margin:0px;
 
-.instituicao {
+}
+
+.LP {
+    background-image: url("../../assets/sneaker1.png");
+    background-size: contain;
+    margin:0px;
+}
+.instituicao-item {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -51,14 +63,14 @@
     margin: 20px 0 0 0;
 }
 
-.cursando {
+/* .description {
     max-width: 520px;
     font-family: 'P22 Mackinac Pro';
     font-weight: 500;
     font-size: 16px;
     color: #5F496F;
     margin-top: 24px
-}
+} */
 
 .faculdade {
     display: flex;
@@ -95,6 +107,7 @@
     color: #411A5E;
     margin: 20px 0 0 0;
     max-width: 806px;
+    margin-bottom: 40px;
 }
 
 .ecc-graduacao {

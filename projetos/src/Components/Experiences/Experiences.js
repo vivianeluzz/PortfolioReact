@@ -9,13 +9,13 @@ return (
          <li className='itens-experiencies'>
             <h3>Desenvolvedora Front-end</h3>
             <ol className='language-tags'>
-               <li className='tag-experiencies'>ANGULAR</li>
-               <li className='tag-experiencies'>JAVASCRIPT</li>
+               <li className='tag-experiencies'>FIGMA</li>
+               <li className='tag-experiencies'>HTML</li>
                <li className='tag-experiencies'>CSS</li>
-               <li className='tag-experiencies'>GIT</li>
+               <li className='tag-experiencies'>JAVASCRIPT</li>
             </ol>
             <p className='experiencies-description'>
-            Fendo responsável pela criação, manutenção, melhoria de páginas e fluxos de venda. Incluindo a implementação de novas landing pages. 
+            Fui responsável pela criação, manutenção, melhoria de páginas e fluxos de venda. Incluindo a implementação de novas landing pages. 
             Colaborando com o time de UX, garantindo que os layouts fossem fiéis aos designs propostos e uma experiência de usuário fluida e intuitiva.
             </p>
             <div className='line'></div>
@@ -27,9 +27,9 @@ return (
          <li className='itens-experiencies'>
             <h3>Desenvolvedora Front-end</h3>
             <ol className='language-tags'>
+               <li className='tag-experiencies'>WORDPRESS</li>
                <li className='tag-experiencies'>HTML</li>
                <li className='tag-experiencies'>CSS</li>
-               <li className='tag-experiencies'>WORDPRESS</li>
                <li className='tag-experiencies'>AWS</li>
             </ol>
             <p className='experiencies-description'>
