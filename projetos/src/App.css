@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'P22Mackinac Pro';
+    src: url('./assets/fonts/P22MackinacPro-Regular.woff2') format('woff2'),
+         url('./assets/fonts/P22MackinacPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'P22Mackinac Pro';
+    src: url('./assets/fonts/P22MackinacPro-Bold.woff2') format('woff2'),
+         url('./assets/fonts/P22MackinacPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'P22Mackinac Pro';
+    src: url('./assets/fonts/P22MackinacPro-Italic.woff2') format('woff2'),
+         url('./assets/fonts/P22MackinacPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  

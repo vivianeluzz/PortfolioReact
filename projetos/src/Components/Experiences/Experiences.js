@@ -43,12 +43,12 @@ return (
             </div>
          </li>
          <li className='itens-experiencies'>
-            <h3>Instrutora voluntária</h3>
+            <h3>Instrutora</h3>
             <ol className='language-tags'>
-               <li className='tag-experiencies'>JAVASCRIPT</li>
-               <li className='tag-experiencies'>GIT</li>
                <li className='tag-experiencies'>HTML</li>
                <li className='tag-experiencies'>CSS</li>
+               <li className='tag-experiencies'>JAVASCRIPT</li>
+               <li className='tag-experiencies'>GIT</li>
             </ol>
             <p className='experiencies-description'>Atuei como educadora voluntária nas aulas inaugural e de encerramento, do curso online Mundo
             Digital do Trabalho, ofertado pela Recode (Ead) com o objetivo de engajar e apoiar as participantes durante essa jornada de

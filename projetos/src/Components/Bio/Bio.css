@@ -8,13 +8,23 @@
     margin-bottom: 160px;
 }
 
-.trajetoria {
+/* .trajetoria {
     font-size: 24px;
-    font-family: 'P22Mackinac Pro';
-    font-weight: 400;
+    font-family: 'P22Mackinac Pro sans-serif';
+    font-weight: 350;
     color: #000000;
     letter-spacing: 2%;
     margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+} */
+
+.description-about {
+    font-family: 'P22 Mackinac Pro';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #5F496F;
 }
 
 .emoji {
