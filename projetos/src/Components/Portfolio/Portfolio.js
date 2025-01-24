@@ -24,7 +24,7 @@ const Portfolio = () => {
         link="https://www.dafiti.com.br/"
         imgClassName="LP"
         title="Landing Page Ecommerce"
-        description="Projeto foi desenvolvido utilizando a funcionalidade de scroll ifinito, implementada com técnicas de CSS para proprorcionar uma navegação fluida e contínua. A estrutura foi construída com HTML, CSS, JavaScript, empregando metodologias modernas como Flexbox, para garantir um layout resposnsivo e com acessibilidade."
+        description="Este projeto foi desenvolvido utilizando a funcionalidade de scroll ifinito, implementada com técnicas de CSS para proprorcionar uma navegação fluida e contínua. A estrutura foi construída com HTML, CSS, JavaScript, empregando metodologias modernas como Flexbox, para garantir um layout responsivo e com acessibilidade."
       />
       {/* Adicionar mais componentes PortfolioItem  */}
     </section>

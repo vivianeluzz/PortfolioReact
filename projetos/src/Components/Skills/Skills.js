@@ -45,6 +45,9 @@ function Skills() {
               <Card bgcolor="mysql" icon={MySQL} title="MySQL" />
           </li>
           </div>
+          <div className='bg-footer'>
+
+          </div>
       </section>
   );
 }

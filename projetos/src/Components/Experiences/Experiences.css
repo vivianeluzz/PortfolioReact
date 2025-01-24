@@ -23,9 +23,9 @@ body {
     flex-wrap: nowrap;
     padding: 0;
     grid-area: 20px;
+    gap:20px;
 }
 .itens-experiencies {
-    width: 100%;
     padding: 0;
 }
 
@@ -58,7 +58,11 @@ ol {
 .language-tags li {
     margin: 0 4px;
 }
-
+.itemexp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .tag-experiencies {
     background-color: #F4E5FF;
     font-family: 'P22 Mackinac Pro';

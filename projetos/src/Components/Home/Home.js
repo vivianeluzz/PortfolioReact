@@ -24,8 +24,13 @@ export const Home = () => {
                 </div>
 
                         <div className='botao-rotativo'>
+
+                        <a href="https://wa.me/5511986966179" target="blank" className='social'>
+                   
                             <img className='circulo-rotativo' src={Curr} alt="Botao rotativo para baixar curriculo" title='' />
                             <img className='emoji-curriculo' src={Emoji} alt="" title='' />
+                        </a>
+
                         </div>
                 <main className='item-vetor'>
                     <img className='vetor' src={Vetor} alt="Vetor" title='Vetor' />
@@ -42,6 +47,7 @@ export const Home = () => {
 
 
 export default Home;
+
 
 
 
