@@ -1,5 +1,7 @@
 import React from 'react';
 import './Experiences.css';
+
+
 export const Experiences = () => {
    return (
       <div className='experiences'>
@@ -67,10 +69,8 @@ export const Experiences = () => {
                         <h4 className='companies-name'>Cruzando Histórias</h4>
                         <p className='years'>Mai-Jun, 2021, Dez-2024</p>
                      </div>
-
                   </div>
                </div>
-
             </ul>
          </div>
       </div>

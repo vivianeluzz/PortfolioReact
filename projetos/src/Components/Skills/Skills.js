@@ -15,43 +15,41 @@ import MySQL from '../../assets/mysql.png';
 import PerfilGit from '../../assets/perfilgit.png';
 import VetorGit from '../../assets/vetorgit.png';
 
+
 function Skills() {
-  return(
-      <section id="skills-section" className='vivi'>
-        <div className='content-div'>
-          <h2>Minhas habilidades</h2>
-          <li className='container'>
-            <div className='github'>
-              <Card bgcolor="green" icon={Github} title="Github" />
-              <div className='github-content'>
-              <img className='perfil-git' src={PerfilGit} alt="Link para Github" title="perfilgit" />
+  return (
+    <section id="skills-section" className='vivi'>
+      <div className='content-div'>
+        <h2>Minhas habilidades</h2>
+        <li className='container'>
+          <div className='github'>
+            <Card bgcolor="green" icon={Github} title="Github" />
+            <div className='github-content'>
+              <img className='perfil-git' src={PerfilGit} alt="Link para perfil Github" title="Perfilgit" />
               <div>
                 <h3 className='name-git'>Viviane Luz</h3>
                 <p className='name-perfil'>vivaneluzz</p>
                 <a className='link-git' href="https://github.com/vivianeluzz">Ver perfil</a>
-                <img className='vetor-git' src={VetorGit} alt="Vetor para Github" title="vetorgit" />
-              </div>
+                <img className='vetor-git' src={VetorGit} alt="Icone do Github" title="Icone git" />
               </div>
             </div>
-              <Card bgcolor="html" icon={Html} title="Html" />
-              <Card bgcolor="css" icon={Javas} title="JavaScript" />
-              <Card bgcolor="css" icon={ReactJs} title="React Js" />
-              <Card bgcolor="css" icon={Css} title="CSS" />
-              <Card bgcolor="react" icon={Nova} title="Node" />
-              <Card bgcolor="angular" icon={Angular} title="Angular" />
-              <Card bgcolor="figma" icon={Figma} title="Figma" />
-              <Card bgcolor="aws" icon={Aws} title="AWS" />
-              <Card bgcolor="type" icon={TypeScript} title="TypeScript" />
-              <Card bgcolor="mysql" icon={MySQL} title="MySQL" />
-          </li>
           </div>
-          <div className='bg-footer'>
-
-          </div>
-      </section>
+          <Card bgcolor="html" icon={Html} title="Html" />
+          <Card bgcolor="css" icon={Javas} title="JavaScript" />
+          <Card bgcolor="css" icon={ReactJs} title="React Js" />
+          <Card bgcolor="css" icon={Css} title="CSS" />
+          <Card bgcolor="react" icon={Nova} title="Node" />
+          <Card bgcolor="angular" icon={Angular} title="Angular" />
+          <Card bgcolor="figma" icon={Figma} title="Figma" />
+          <Card bgcolor="aws" icon={Aws} title="AWS" />
+          <Card bgcolor="type" icon={TypeScript} title="TypeScript" />
+          <Card bgcolor="mysql" icon={MySQL} title="MySQL" />
+        </li>
+      </div>
+      <div className='bg-footer'></div>
+    </section>
   );
 }
 
 export default Skills;
 
-  
