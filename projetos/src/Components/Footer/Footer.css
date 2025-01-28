@@ -56,11 +56,16 @@
 
     .search-job {
         font-size: 18px;
+        margin-left: 16px;
     }
 
     .text-contact {
         font-size: 12px;
     }
 
-   
+    .social-contact {
+        display: flex;
+        align-items: center;
+        margin-left: 26px;
+    } 
 }

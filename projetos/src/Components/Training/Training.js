@@ -35,7 +35,7 @@ return (
          </div>
          <p className='graduacao'>Graduação em Análise e desenvolvimento de Sistemas</p>
          <p className='cursando'>
-            Estou cursando a graduação de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie.
+            Estou cursando a graduação de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie, com formação prevista para 2025.
          </p>
       </div>
    </div>
@@ -46,7 +46,7 @@ return (
          link='https://www.mackenzie.br/'
          duration='Curso - 3 meses'
          title='Bootcamp JavaScript'
-         description='Curso intensivo imersão Javascript, com carga horária de 264,5 horas, distribuídas entre: Test Driven Development, Pirâmide de Testes, Introdução à Orientação
+         description='Curso intensivo com imersão em JavaScript, com carga horária de 264,5 horas, distribuídas entre: Test Driven Development, Pirâmide de Testes, Introdução à Orientação
          a Objeto, Prototype no Javascript, Código Limpo, Refatoração, Competências
          Socioemocionais e projetos práticos.'
          className='text-title'
@@ -58,7 +58,8 @@ return (
          link='https://www.mackenzie.br/'
          duration='Curso - 3 meses'
          title='JavaScript para Front-end'
-         description='Formação com duração de 6 meses com aulas ao vivo online. A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, com as principais cerimônias do Scrum.'
+         description='Foram abordados tópicos com a criação de código sem frameworks (JavaScript puro), consumo de APIs com Ajax e JSON em requisições HTTP, envio de textos em formatos JSON,
+                  manipulação do DOM, selecionando elementos HTML com querySelector, e a utilização de eventos (Event Handlers vs Event Listeners). O curso teve foco o desenvolvimento de uma  aplicação completa, mobile e responsiva.'
          className='caelum-background'
          />
       <Courses
@@ -67,7 +68,7 @@ return (
          link='https://www.mackenzie.br/'
          duration='Curso - 3 meses'
          title='Web Full-Stack'
-         description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia a mesma dinâmica de um time de tecnologia em uma startup moderna, com as principais cerimônias do Scrum, projetos semanais e pŕaticas de code review, utilizando as aprincipais stacks, git, github, javascript, react, com carga horária de 1040 horas.'
+         description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia o mesmo modelo de trabalho de um time de tecnologia em uma startup moderna, incluindo as principais cerimônias do Scrum, projetos semanais e pŕaticas de code review. Foram utilizadas as aprincipais stacks, como Git, GitHub, JavaScript e React, com carga horária de 1040 horas.'
          className='ecc-background'
          />
       <div className='course-extra'>

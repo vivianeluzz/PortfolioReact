@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
     <div className='contact'>
-      <p className='search-job'>Procuro oportunidade onde eu possa aprender, me desenvolver e evoluir na minha carreira profissional</p>
+      <p className='search-job'>Procuro oportunidade onde eu possa aprender, me desenvolver e evoluir na minha carreira profissional.</p>
       <div className='social-media'>
        
           <div className="social-contact">

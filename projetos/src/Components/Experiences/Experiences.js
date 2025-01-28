@@ -36,8 +36,8 @@ export const Experiences = () => {
                         <li className='tag-experiencies'>AWS</li>
                      </ol>
                      <p className='experiencies-description'>
-                        Fui responsável pela criação e manutenção das páginas. Para a infraestrutura utilizei AWS.
-                        Html, Css e Wordpress para estruturar e estilizar páginas em temas em Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
+                        Fui responsável pela criação e manutenção na plataforma. Para a infraestrutura utilizei AWS.
+                        Html, Css para estruturar e estilizar páginas em temas personalizados no Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
                      </p>
                      <div className='line'></div>
                      <div className='companies'>
@@ -56,7 +56,7 @@ export const Experiences = () => {
                         <li className='tag-experiencies'>GIT</li>
                      </ol>
                      <p className='experiencies-description'>Atuei como educadora voluntária nas aulas inaugural e de encerramento, do curso online Mundo
-                        Digital do Trabalho, ofertado pela Recode (Ead) com o objetivo de engajar e apoiar as participantes durante essa jornada de
+                        Digital do Trabalho, ofertado pela Recode no formato (Ead) com o objetivo de engajar e apoiar as participantes durante essa jornada de
                         aprendizado digital.
                      </p>
                   </li>
