@@ -25,7 +25,7 @@ h2 {
 
 .github {
     display: flex;
-    width: 500px;
+    width: 504px;
     border-radius: 40px;
     border: solid 1px #D5E0E5;
     gap:40px;
@@ -37,7 +37,7 @@ h2 {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;  
 }
 
@@ -91,7 +91,7 @@ h2 {
     z-index: -1;
     position:absolute;
     width: 102%;
-    margin-left: -16px;
+    margin-left: -17px;
 }
 
 @media (max-width: 800px) {

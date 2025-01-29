@@ -1,6 +1,8 @@
 body {
     padding: 16px;
+    overflow-x:hidden;
 }
+
 .experiences {
     display: flex;
     flex-direction: column;
@@ -93,9 +95,9 @@ ol {
     height: 1px;
 }
 
-.companies {
+/* .companies {
     max-width: 333px;
-}
+} */
 
 .companies-name {
     width: 100%;

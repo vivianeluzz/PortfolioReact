@@ -19,7 +19,7 @@ export const Experiences = () => {
                      </ol>
                      <p className='experiencies-description'>
                         Fui responsável pela criação, manutenção, melhoria de páginas e fluxos de venda. Incluindo a implementação de novas landing pages.
-                        Colaborando com o time de UX, garantindo que os layouts fossem fiéis aos designs propostos e uma experiência de usuário fluida e intuitiva.
+                        Colaborando com o time de UX, garantindo que os layouts ficassem fiéis aos designs propostos e com uma experiência de usuário fluida e intuitiva.
                      </p>
                      <div className='line'></div>
                      <div className='companies'>
@@ -38,8 +38,8 @@ export const Experiences = () => {
                         <li className='tag-experiencies'>AWS</li>
                      </ol>
                      <p className='experiencies-description'>
-                        Fui responsável pela criação e manutenção na plataforma. Para a infraestrutura utilizei AWS.
-                        Html, Css para estruturar e estilizar páginas em temas personalizados no Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
+                        Fui responsável pela criação e manutenção da plataforma de ensino. Para a infraestrutura utilizei AWS.
+                        Html, Css e Elementor para estruturar e estilizar páginas em temas personalizados no Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
                      </p>
                      <div className='line'></div>
                      <div className='companies'>
@@ -50,7 +50,7 @@ export const Experiences = () => {
                </div>
                <div className='itemexp'>
                   <li className='itens-experiencies'>
-                     <h3>Instrutora e Desenvolvimento</h3>
+                     <h3>Instrutora e Orientadora</h3>
                      <ol className='language-tags'>
                         <li className='tag-experiencies'>HTML</li>
                         <li className='tag-experiencies'>CSS</li>
@@ -58,7 +58,7 @@ export const Experiences = () => {
                         <li className='tag-experiencies'>GIT</li>
                      </ol>
                      <p className='experiencies-description'>Atuei como educadora voluntária nas aulas inaugural e de encerramento, do curso online Mundo
-                        Digital do Trabalho, ofertado pela Recode no formato (Ead) com o objetivo de engajar e apoiar as participantes durante essa jornada de
+                        Digital do Trabalho, ofertado pela Recode no formato (Ead) com o objetivo de engajar e apoiar as participantes durante a jornada de
                         aprendizado digital.
                      </p>
                   </li>

@@ -126,11 +126,6 @@
     background-color: #FBF5FF;
     border-radius: 60px;
     padding: 64px;
-    font-family: 'P22 Mackinac Pro';
-    color: #5F496F;
-    font-size: 16px;
-    font-weight: 500;
-    box-sizing: border-box;
 }
 
 .description {
@@ -138,6 +133,8 @@
     font-weight: 500;
     font-size: 16px;
     color: #5F496F;
+    line-height: 24px;
+    margin-bottom: 0;
 }
 
 #caelum{
@@ -164,7 +161,7 @@
     border-radius: 40px;
     background-color: #F5F9FF;
     padding: 43px 40px;
-   
+    height: 48%;
 }
 
 .alura {

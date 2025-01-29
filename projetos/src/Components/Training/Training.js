@@ -59,8 +59,8 @@ const Training = () => {
                link='https://www.mackenzie.br/'
                duration='Curso - 3 meses'
                title='JavaScript para Front-end'
-               description='Foram abordados tópicos com a criação de código sem frameworks (JavaScript puro), consumo de APIs com Ajax e JSON em requisições HTTP, envio de textos em formatos JSON,
-                  manipulação do DOM, selecionando elementos HTML com querySelector, e a utilização de eventos (Event Handlers vs Event Listeners). O curso teve foco o desenvolvimento de uma  aplicação completa, mobile e responsiva.'
+               description='Foram abordados tópicos com códigos sem frameworks (JavaScript puro), consumo de APIs com Ajax e JSON em requisições HTTP, envio de textos em formato JSON,
+                  manipulação do DOM, selecionando elementos HTML com querySelector, e a utilizando eventos (Event Handlers vs Event Listeners). Focado em uma  aplicação completa e responsiva.'
                className='caelum-background'
             />
             <Courses
@@ -69,7 +69,7 @@ const Training = () => {
                link='https://www.mackenzie.br/'
                duration='Curso - 3 meses'
                title='Web Full-Stack'
-               description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia o mesmo modelo de trabalho de um time de tecnologia em uma startup moderna, incluindo as principais cerimônias do Scrum, projetos semanais e pŕaticas de code review. Foram utilizadas as aprincipais stacks, como Git, GitHub, JavaScript e React, com carga horária de 1040 horas.'
+               description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia o mesmo modelo de trabalho de um time de tecnologia em uma startup moderna, incluindo as principais cerimônias do Scrum, projetos semanais e práticas de code review. Foram utilizadas as aprincipais stacks, como Git, GitHub, JavaScript e React, com carga horária de 1040 horas.'
                className='ecc-background'
             />
             <div className='course-extra'>
