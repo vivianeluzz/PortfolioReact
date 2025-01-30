@@ -1,13 +1,14 @@
 import React from 'react';
 import './Bio.css';
-import Emoji from '../../assets/emoji.png';
+import Emoji from '../../assets/womanemoji.png';
 
 function Bio() {
   return(
       <section  id="bio-section" className='infos'>
-        <img className='emoji' src={Emoji} alt="Emoji" title='Emoji'/>
-        <p className='trajetoria'>Minha trajetória profissional começou na enfermagem. Inspirada pela paixão por tecnologia, fiz a transição de carreira e me especializei como desenvolvedora Front-end.
-      Além disso, sou motivada pelo aprendizado contínuo, o que me ajuda a me manter atualizada com as melhores práticas do mercado. Nas horas vagas, gosto de explorar museus, sair com amigos e particiar de eventos culturais e sociais.
+        <img className='emoji' src={Emoji} alt="Emoji de mulher estudante com tom marrom" title='Emoji estudante'/>
+        <p className='description-about'>Sou estudante de Análise e Desenvolvimento de Sistemas na Mackenzie e desenvolvedora Front-end com experiência prática. Gosto de fazer interfaces bonitas, funcionais e trabalho muito bem em equipe.
+        Além disso, gosto de aprender e ensinar, pois acredito na troca de experiências.
+          No meu tempo livre, adoro explorar museus, fazer cerâmica e aproveitar momentos com a família e amigos.
         </p>
         <div>
         </div>

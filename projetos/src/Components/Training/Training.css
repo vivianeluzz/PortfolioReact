@@ -21,7 +21,7 @@
 .courses-full{
     background-color: #FFF7F7;
     border-radius: 60px;
-    padding: 64px;
+    padding: 60px;
     margin-bottom: 40px;
 }
 
@@ -50,7 +50,7 @@
     font-weight: 500;
     font-size: 16px;
     color: #5F496F;
-    margin-top: 24px
+    line-height: 25px;
 }
 
 .faculdade {
@@ -190,6 +190,5 @@
     .ecc-graduacao {
         font-size: 30px;
     }
-
-    
+   
 }

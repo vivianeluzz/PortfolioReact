@@ -1,10 +1,12 @@
 body {
     padding: 16px;
+    overflow-x:hidden;
 }
+
 .experiences {
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 30px 20px;
     border-radius: 80px;
     border: 1px solid #D5E0E5;
     background: linear-gradient(0deg, #FEFCFF 0%, #FEFCFF 100%), linear-gradient(104deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%);
@@ -23,9 +25,9 @@ body {
     flex-wrap: nowrap;
     padding: 0;
     grid-area: 20px;
+    gap:20px;
 }
 .itens-experiencies {
-    width: 100%;
     padding: 0;
 }
 
@@ -58,7 +60,11 @@ ol {
 .language-tags li {
     margin: 0 4px;
 }
-
+.itemexp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .tag-experiencies {
     background-color: #F4E5FF;
     font-family: 'P22 Mackinac Pro';
@@ -89,9 +95,9 @@ ol {
     height: 1px;
 }
 
-.companies {
+/* .companies {
     max-width: 333px;
-}
+} */
 
 .companies-name {
     width: 100%;

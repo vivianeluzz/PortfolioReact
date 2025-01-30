@@ -7,7 +7,7 @@
 }
 
 .training-title {
-    font-family: 'P22 Mackinack Pro';
+    font-family: 'P22 Mackinac Pro';
     font-weight: 800;
     font-size: 64px;
     color: #411A5E;
@@ -18,12 +18,12 @@
     width: 100%;
 }
 
-.courses-full{
+.full{
     background-color: #FFF7F7;
     border-radius: 60px;
     padding: 64px;
-    margin-bottom: 40px;
-    height: 200px;
+    margin-bottom: 60px;
+    height: 240px;
 }
 
  .Movida1 {
@@ -31,10 +31,28 @@
     background-size: cover;
     margin:0px;
 }
+.AmazonLP {
+    background-image: url("../../assets/AmazonLP.jpg");
+    background-size: cover;
+    margin:0px;
 
-.instituicao {
+}
+
+.LP {
+    background-image: url("../../assets/sneaker1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin:0px;
+    border: solid 1px;
+    border-color:#c1c9d6;
+}
+.instituicao-item {
     display: flex;
+    flex-direction: column;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -51,14 +69,6 @@
     margin: 20px 0 0 0;
 }
 
-.cursando {
-    max-width: 520px;
-    font-family: 'P22 Mackinac Pro';
-    font-weight: 500;
-    font-size: 16px;
-    color: #5F496F;
-    margin-top: 24px
-}
 
 .faculdade {
     display: flex;
@@ -93,7 +103,6 @@
     font-family: 'P22 Mackinac Pro';
     font-size: 32px;
     color: #411A5E;
-    margin: 20px 0 0 0;
     max-width: 806px;
 }
 
@@ -117,11 +126,6 @@
     background-color: #FBF5FF;
     border-radius: 60px;
     padding: 64px;
-    font-family: 'P22 Mackinac Pro';
-    color: #5F496F;
-    font-size: 16px;
-    font-weight: 500;
-    box-sizing: border-box;
 }
 
 .description {
@@ -129,6 +133,8 @@
     font-weight: 500;
     font-size: 16px;
     color: #5F496F;
+    line-height: 24px;
+    margin-bottom: 0;
 }
 
 #caelum{
@@ -155,7 +161,7 @@
     border-radius: 40px;
     background-color: #F5F9FF;
     padding: 43px 40px;
-   
+    height: 48%;
 }
 
 .alura {
@@ -196,7 +202,5 @@
 
     .ecc-graduacao {
         font-size: 30px;
-    }
-
-    
+    }  
 }

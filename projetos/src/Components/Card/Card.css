@@ -51,6 +51,15 @@
     background-color:#FFFFFF; 
   }
 
+  .title-language {
+    font-family: 'P22 Mackinac Pro';
+    color: #4F6B82;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
 
   @media (max-width: 800px) {
 
