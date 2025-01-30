@@ -21,9 +21,9 @@ export const Home = () => {
                     <div className='header'><p className='tag-header'>Mackenzie</p></div>
                 </div>
                         <div className='botao-rotativo'>
-                        <a href="https://wa.me/5511986966179" target="blank" className='social'>
+                        <a href="https://wa.me/5511948746424" target="blank" className='social'>
                             <img className='circulo-rotativo' src={Curr} alt="Botão rotativo com texto vamos conversar" title='Botão' />
-                            <img className='emoji-curriculo' src={Emoji} alt="Emoji rosto de mulher com tom marrom" title='Emoji' />
+                            <img className='emoji-curriculo' src={Emoji} alt="Emoji rosto de mulher com tom marrom" title='WhatsApp' />
                         </a>
                         </div>
                 <main className='item-vetor'>

@@ -5,7 +5,7 @@ function Card({ bgcolor, icon, title }) {
     return(
         <div className={`card card-${bgcolor}`} >
             <img className="img-icone" src={icon}  alt="Icone" />
-            <p>{title}</p>
+            <p className='title-language'>{title}</p>
         </div>
     );
   }

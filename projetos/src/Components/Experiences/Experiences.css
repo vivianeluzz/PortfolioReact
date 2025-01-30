@@ -6,7 +6,7 @@ body {
 .experiences {
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 30px 20px;
     border-radius: 80px;
     border: 1px solid #D5E0E5;
     background: linear-gradient(0deg, #FEFCFF 0%, #FEFCFF 100%), linear-gradient(104deg, #F9FCFE 0%, #FFFEFA 49.48%, #F9F3FE 100%);

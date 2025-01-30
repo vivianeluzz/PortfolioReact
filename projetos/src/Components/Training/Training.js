@@ -5,6 +5,7 @@ import ReprogramaLogo from '../../assets/reprograma.png';
 import CaelumLogo from '../../assets/caelum.png';
 import EccLogo from '../../assets/ecc.png';
 import AluraLogo from '../../assets/alura.png';
+import LabenuLogo from '../../assets/logolabenu.png';
 
 
 const Courses = ({ logo, name, link, duration, title, description, className }) => (
@@ -44,7 +45,7 @@ const Training = () => {
             <Courses
                logo={ReprogramaLogo}
                name='Reprograma'
-               link='https://www.mackenzie.br/'
+               link='https://reprograma.com.br/curso-imersao-javascript/' 
                duration='Curso - 3 meses'
                title='Bootcamp JavaScript'
                description='Curso intensivo com imersão em JavaScript, com carga horária de 264,5 horas, distribuídas entre: Test Driven Development, Pirâmide de Testes, Introdução à Orientação
@@ -56,7 +57,7 @@ const Training = () => {
                id="caelum"
                logo={CaelumLogo}
                name='Caelum'
-               link='https://www.mackenzie.br/'
+               link='/'
                duration='Curso - 3 meses'
                title='JavaScript para Front-end'
                description='Foram abordados tópicos com códigos sem frameworks (JavaScript puro), consumo de APIs com Ajax e JSON em requisições HTTP, envio de textos em formato JSON,
@@ -64,9 +65,9 @@ const Training = () => {
                className='caelum-background'
             />
             <Courses
-               logo={MackenzieLogo}
+               logo={LabenuLogo}
                name='Labenu'
-               link='https://www.mackenzie.br/'
+               link='https://www.instagram.com/labenu_/'
                duration='Curso - 3 meses'
                title='Web Full-Stack'
                description=' Bootcamp com duração de 6 meses e aulas ao vivo online. A dinâmica do curso seguia o mesmo modelo de trabalho de um time de tecnologia em uma startup moderna, incluindo as principais cerimônias do Scrum, projetos semanais e práticas de code review. Foram utilizadas as aprincipais stacks, como Git, GitHub, JavaScript e React, com carga horária de 1040 horas.'
