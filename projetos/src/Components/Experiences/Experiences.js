@@ -12,14 +12,15 @@ export const Experiences = () => {
                   <li className='itens-experiencies'>
                      <h3>Desenvolvedora Front-end</h3>
                      <ol className='language-tags'>
+                     <li className='tag-experiencies'>ANGULAR</li>
                         <li className='tag-experiencies'>FIGMA</li>
                         <li className='tag-experiencies'>HTML</li>
                         <li className='tag-experiencies'>CSS</li>
-                        <li className='tag-experiencies'>JAVASCRIPT</li>
+                        <li className='tag-experiencies'>TS/JS</li>
                      </ol>
                      <p className='experiencies-description'>
-                        Fui responsável pela criação, manutenção, melhoria de páginas e fluxos de venda. Incluindo a implementação de novas landing pages.
-                        Colaborando com o time de UX, garantindo que os layouts ficassem fiéis aos designs propostos e com uma experiência de usuário fluida e intuitiva.
+                        Fui responsável pela criação, manutenção das páginas, desenvolvimento de novas landing pages e fluxos de venda, utilizando Angular para o site Seminovos Movida.
+                        Garantindo uma experiência de usuário fluida e responsiva. Trabalhei em colaboração com o time de UX para assegurar que os layouts fossem fiéis aos designs propostos.
                      </p>
                      <div className='line'></div>
                      <div className='companies'>
@@ -39,7 +40,7 @@ export const Experiences = () => {
                      </ol>
                      <p className='experiencies-description'>
                         Fui responsável pela criação e manutenção da plataforma de ensino. Para a infraestrutura utilizei AWS.
-                        Html, Css e Elementor para estruturar e estilizar páginas em temas personalizados no Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
+                        Html, Css e Elementor para estruturar e estilizar páginas personalizados no Wordpress. Desenvolvi páginas responsivas, adaptadas às necessidades institucionais e acessíveis para alunos, pais e professores.
                      </p>
                      <div className='line'></div>
                      <div className='companies'>
@@ -59,7 +60,7 @@ export const Experiences = () => {
                      </ol>
                      <p className='experiencies-description'>Atuei como educadora voluntária nas aulas inaugural e de encerramento, do curso online Mundo
                         Digital do Trabalho, ofertado pela Recode no formato (Ead) com o objetivo de engajar e apoiar as participantes durante a jornada de
-                        aprendizado digital.
+                        aprendizado.
                      </p>
                   </li>
 
