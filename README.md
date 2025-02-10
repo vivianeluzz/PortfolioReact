@@ -10,17 +10,17 @@
 </p>
 
 # ✔️ Portfólio feito em react e responsivo.
-O projeto foi elaborado em Html, Css, React, Node e metodologias Flexbox. Utilizando o editor de código Visual Studio Code, para o desenvolvimento.
+Este projeto foi desenvolvido para apresentar minhas experiências e habilidades em Front-end, além de aprimorar meu conhecimento no framework React. Utilizei HTML, CSS, React, Node.js e metodologias como Flexbox para a construção da interface. O desenvolvimento foi realizado no Visual Studio Code, com foco em UI/UX, performance, acessibilidade e responsiva. Também utilizei o Figma para a criação e validação dos layouts, garantindo uma experiência visual coesa e com pixel perfect.
 
  :hammer:  Técnicas e tecnologias utilizadas
 - Github
 - Git
 - Vscode
+- React
 - HTML
 - CSS 
 - Flexbox
 - Node
-- React
 
 
 
